@@ -1,4 +1,4 @@
 FROM takatokinoshita/eccomp2019:test
 RUN pip install jsonschema
-COPY rapper.py .
+COPY wrapper.py .
 CMD python rapper.py
